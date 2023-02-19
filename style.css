@@ -69,3 +69,24 @@ body {
   margin-top: 10px;
   display: block;
 }
+
+/* Responsive layout for smaller screen sizes */
+@media (max-width: 768px) {
+  .counter-box {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+  .counter {
+    font-size: 3rem;
+  }
+  .counter-label {
+    font-size: 1.5rem;
+  }
+  .counter-value {
+    font-size: 4rem;
+  }
+  .counter-separator {
+    font-size: 4rem;
+  }
+}
