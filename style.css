@@ -76,6 +76,7 @@ body {
     width: 100%;
     height: auto;
     padding: 10px;
+    border-radius: 20px;
   }
   .counter {
     font-size: 3rem;
@@ -88,5 +89,21 @@ body {
   }
   .counter-separator {
     font-size: 4rem;
+  }
+}
+
+/* Smaller font sizes for even smaller screens */
+@media (max-width: 480px) {
+  .counter {
+    font-size: 2.5rem;
+  }
+  .counter-label {
+    font-size: 1.2rem;
+  }
+  .counter-value {
+    font-size: 3rem;
+  }
+  .counter-separator {
+    font-size: 3rem;
   }
 }
